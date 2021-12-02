@@ -1,0 +1,17 @@
+# Use veriables:
+@baseUrl = http://localhost:3000
+
+GET {{baseUrl}}
+
+### separate requests
+
+POST {{baseUrl}}
+###
+
+PUT {{baseUrl}}
+
+###
+DELETE {{baseUrl}}
+
+### To this url we can access through any requst type
+GET {{baseUrl}}/admin
