@@ -1,0 +1,28 @@
+@website = http://localhost:3000
+
+### GET
+
+GET {{website}}
+
+### POST
+
+POST {{website}}/add
+Content-Type: application/json
+
+{
+    "name":"Alex",
+    "avgGrade":80
+}
+
+### PUT
+
+PUT {{website}}/update/Alex
+Content-Type: application/json
+
+{
+    "avgGrade":90
+}
+
+### DELETE
+DELETE {{website}}/delete/Alex
+
