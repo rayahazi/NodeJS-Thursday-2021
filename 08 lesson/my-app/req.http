@@ -1,0 +1,41 @@
+@web = http://localhost:3000
+
+### GET 
+
+GET {{web}}/all
+
+### POST
+
+POST {{web}}/add 
+Content-Type: application/json
+
+{
+    "id":1, 
+    "name":"John",
+    "age":50,
+    "favFood":"Meat"
+}
+
+### POST
+
+POST {{web}}/add 
+Content-Type: application/json
+
+{
+    "id":2, 
+    "name":"Alex",
+    "age":25,
+    "favFood":"Ice cream"
+}
+
+### PUT
+PUT {{web}}/update/1 
+Content-Type: application/json
+
+{
+    "favFood":"Coffee"
+}
+
+### DELETE
+
+DELETE {{web}}/delete/1
