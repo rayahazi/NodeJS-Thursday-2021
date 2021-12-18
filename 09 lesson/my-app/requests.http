@@ -1,0 +1,34 @@
+@web = http://localhost:3000
+
+### GET - html
+
+GET {{web}}
+
+### GET - all
+
+GET {{web}}/all
+
+### POST
+
+POST {{web}}/add
+Content-Type: application/json
+
+{
+    "id":1, 
+    "name":"Yellow",
+    "artist":"Coldplay",
+    "year":2010
+}
+
+### PUT
+
+PUT {{web}}/update/Yellow
+Content-Type: application/json
+
+{
+    "newYear":2000
+}
+
+### DELETE
+
+DELETE {{web}}/delete/1
