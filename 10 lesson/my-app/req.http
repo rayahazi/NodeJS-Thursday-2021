@@ -1,0 +1,41 @@
+@website = http://localhost:3000
+
+### GET
+GET {{website}}/all
+
+### POST
+
+POST {{website}}/add 
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"Yellow",
+    "artist":"Coldplay",
+    "year":2010
+}
+
+### POST
+
+POST {{website}}/add 
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"Hallelujah",
+    "artist":"Leonard Cohen",
+    "year": 1984
+}
+
+### PUT
+
+PUT {{website}}/update/Yellow
+Content-Type: application/json
+
+{
+    "year":2000
+}
+
+### DELETE
+
+DELETE {{website}}/delete/1
