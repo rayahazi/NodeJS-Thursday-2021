@@ -20,7 +20,7 @@ Better for well-structured, constant data.
 
   **Disadvantages**
 
-- All relations and tables options(columns, data types etc..) must be panned well before adding data to db.
+- All relations and tables options(columns, data types etc..) must be planned well before adding data to db.
 - Hard and expensive to change the architecture in the future.
 
 * Cannot store complex or very large images, numbers, designs and multimedia products
