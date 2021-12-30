@@ -1,7 +1,3 @@
-<div style="text-align:center;">
-<img src="https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png" height=100>
-</div>
-
 # MongoDB
 
 https://www.mongodb.com/try/download/compass
