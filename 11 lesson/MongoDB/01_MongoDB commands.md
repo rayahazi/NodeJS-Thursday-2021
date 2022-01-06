@@ -306,9 +306,9 @@ db.Students.find().sort({ age: -1 }).pretty()
 #### Foreach
 
 ```
-db.Students.find().forEach(function(student){
-    print("User: " + student.name + ". Courses: " + student.course)
-})
+db.Students.find().forEach(student =>
+print(`User: ${student.name}.  Courses: ${student.course}`)
+)
 
 User: John. Courses: NodeJS,Angular,React
 User: Alice. Courses: NodeJS,Angular,Python
