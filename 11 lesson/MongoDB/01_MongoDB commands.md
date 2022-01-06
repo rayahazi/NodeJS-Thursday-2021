@@ -413,6 +413,7 @@ WriteResult({ "nRemoved" : 1 })
 - lt- less than
 - lte- less than or equal
 - eq - equal
+- ne - not equal
 
 ```
 db.Students.find({ age: { $gt: 40 } })
@@ -420,5 +421,6 @@ db.Students.find({ age: { $gte: 40 } })
 db.Students.find({ age: { $lt: 40 } })
 db.Students.find({ age: { $lte: 40 } })
 db.Students.find({ age: { $eq: 40 } })
+db.Students.find({ age: { $ne: 40 } })
 
 ```
