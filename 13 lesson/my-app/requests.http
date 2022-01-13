@@ -1,0 +1,50 @@
+@website = http://localhost:3000
+
+### GET
+
+GET {{website}}/students
+
+### GET - one student
+GET {{website}}/students/John
+
+
+### POST
+POST {{website}}/students/add
+Content-Type: application/json
+
+{
+    "name":"John",
+    "age": 35,
+    "address": {
+        "country":"Israel", 
+        "city":"Ariel"
+    }
+}
+
+### POST 2
+POST {{website}}/students/add
+Content-Type: application/json
+
+{
+    "name":"Bracha",
+    "age": 20,
+    "address": {
+        "country":"Israel", 
+        "city":"Tel-Aviv"
+    }
+}
+
+### PUT
+PUT {{website}}/students/update/John
+Content-Type: application/json
+
+{
+    "newAge":38
+}
+
+
+### DELETE
+DELETE {{website}}/students/delete/John
+
+### DELETE with errors
+DELETE {{website}}/students/delete/aaa
