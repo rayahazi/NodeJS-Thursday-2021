@@ -15,7 +15,7 @@ and will get the user password, and username as parameters
 2. The promise will return resolve with success message if username and pass are correct
 or reject with error message if do not match. 
 
-The correct usename & password: Alex, 12345678. 
+The correct username & password: Alex, 12345678. 
 */
 
 
