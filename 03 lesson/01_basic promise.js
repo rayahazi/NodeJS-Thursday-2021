@@ -9,4 +9,5 @@ promise
     .then(()=>console.log("x and y are Equal"))
     .catch(()=>console.log("x and y are NOT Equal"));
 
-// x and y are Equal
+
+//x and y are NOT Equal
